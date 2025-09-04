@@ -9,8 +9,9 @@ draft: false
 블로그를 만드는 방법에는 여러 가지가 있지만, 그 중 SSG의 Hugo를 사용하기로 결정하였다 ! <br>
 <br>
 
-> SSG(Static Site Generator란?<br><br>
-정적 사이트 생성기(=SSG)는 정적 웹 페이지를 쉽게 생성해주는 프레임워크 <br>
+
+SSG(Static Site Generator란?
+>정적 사이트 생성기(=SSG)는 정적 웹 페이지를 쉽게 생성해주는 프레임워크 <br>
 대표적인 SSG로는 Hugo, Jekyll, Gatsby 등이 있다. <br>
 특히 Hugo는 Go언어로 만들어져 속도가 아주 빠르고, 마크다운 기반으로 컨텐츠를 작성할 수 있다.
 
@@ -21,7 +22,7 @@ draft: false
 
 ` brew install hugo `
 
-<br>
+<br><br>
 
 ### 2. 설치가 완료되면 프로젝트를 생성해준다.
 
@@ -32,7 +33,7 @@ draft: false
 
 ![img.png](/blog/images/img.png)
 
-<br>
+<br><br>
 
 ### 3. git에서도 배포 시 사용할 repository를 하나 생성해준다.
 
@@ -117,7 +118,7 @@ jobs:
 
 ```
 
-<br>
+<br><br>
 
 
 ### 4. 아래 페이지에서 사용할 Hugo 테마를 고르고, 사용할 깃 저장소에 clone 해준다.
@@ -125,7 +126,7 @@ https://themes.gohugo.io
 
 나는 깔끔한 PaperMod를 선택하였다. -> https://themes.gohugo.io/themes/hugo-papermod/
 
-<br>
+<br><br>
 
 ### 5. Hugo의 핵심 파일 중 하나인, hugo.toml 파일을 수정한다. 
 해당 블로그의 이름, 테마, 배포 위치, 언어 등을 설정해주는 것이다.
@@ -137,7 +138,7 @@ title = "hxxyeoniii" <br>
 theme = "hugo-PaperMod"
 ```
 
-<br>
+<br><br>
 
 ### 6. GitHub Pages에 배포를 진행한다.
 
@@ -149,7 +150,7 @@ git push origin main // 원격 저장소에 푸쉬 -> 자동 빌드됨
 ![img_1.png](/blog/images/img_1.png)
 
 
-<br>
+<br><br>
 
 ### 7. 블로그 완성 !!
 
