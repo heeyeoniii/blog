@@ -17,23 +17,25 @@ draft: false
 <br>
 
 ## Hugo를 사용한 블로그 만들기
-<h3>1. 먼저, 아래 코드를 사용해 mac OS에 Hugo를 설치해주자.</h3>
+### 1. 먼저, 아래 코드를 사용해 mac OS에 Hugo를 설치해주자.
 
-<code>brew install hugo</code>
+` brew install hugo `
 
 <br>
-<h3>2. 설치가 완료되면 프로젝트를 생성해준다.</h3>
+
+### 2. 설치가 완료되면 프로젝트를 생성해준다.
 
 
-<code>hugo new site hxxyeoniii</code>
+` hugo new site hxxyeoniii `
 
 프로젝트가 생성되었다면 다음과 같은 구조를 확인할 수 있다. <br>
 
-![img.png](img.png)
-
+![img.png](/blog/images/img.png)
 
 <br>
-<h3>3. git에서도 배포 시 사용할 repository를 하나 생성해준다.<br></h3>
+
+### 3. git에서도 배포 시 사용할 repository를 하나 생성해준다.
+
 그리고 CI 시 사용할 workflow를 등록해준다.
 
 ```
@@ -116,14 +118,16 @@ jobs:
 ```
 
 <br>
-<h3>4. 아래 페이지에서 사용할 Hugo 테마를 고르고, 사용할 깃 저장소에 clone 해준다.<br></h3>
+
+
+### 4. 아래 페이지에서 사용할 Hugo 테마를 고르고, 사용할 깃 저장소에 clone 해준다.
 https://themes.gohugo.io
 
 나는 깔끔한 PaperMod를 선택하였다. -> https://themes.gohugo.io/themes/hugo-papermod/
 
-
 <br>
-<h3>5. Hugo의 핵심 파일 중 하나인, hugo.toml 파일을 수정한다. <br></h3>
+
+### 5. Hugo의 핵심 파일 중 하나인, hugo.toml 파일을 수정한다. 
 해당 블로그의 이름, 테마, 배포 위치, 언어 등을 설정해주는 것이다.
 
 ```
@@ -134,15 +138,12 @@ theme = "hugo-PaperMod"
 ```
 
 <br>
-<h3>6. GitHub Pages에 배포를 진행한다.</h3>
+
+### 6. GitHub Pages에 배포를 진행한다.
 
 ```
 git add . // 변경 내역 스테이징에 올리기
 git commit -m "블로그 글 작성" // 글 작성 후 커밋
 git push origin main // 원격 저장소에 푸쉬 -> 자동 빌드됨
 ```
-<br>
-
-![img_1.png](img_1.png)
-
-
+![img_1.png](/blog/images/img_1.png)

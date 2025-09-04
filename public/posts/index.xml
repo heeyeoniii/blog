@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on hxxyeoniii</title>
-    <link>https://heeyeoniii.github.io/blog/posts/</link>
+    <link>http://localhost:1313/blog/posts/</link>
     <description>Recent content in Posts on hxxyeoniii</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heeyeoniii.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSG(Hugo)를 사용한 나만의 블로그 만들기</title>
-      <link>https://heeyeoniii.github.io/blog/posts/test/</link>
+      <link>http://localhost:1313/blog/posts/post_1/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://heeyeoniii.github.io/blog/posts/test/</guid>
+      <guid>http://localhost:1313/blog/posts/post_1/</guid>
       <description>&lt;h2 id=&#34;시작&#34;&gt;시작&lt;/h2&gt;
 &lt;p&gt;그동안은 티스토리나 벨로그를 사용하며 공부한 내용을 정리해 왔는데, 보다 새로운 방법으로 정리를 하고 싶어져 블로그를 직접 만들어 보고 싶은 생각이 들었다. &lt;!-- raw HTML omitted --&gt;
 블로그를 만드는 방법에는 여러 가지가 있지만, 그 중 SSG의 Hugo를 사용하기로 결정하였다 ! &lt;!-- raw HTML omitted --&gt;
