@@ -147,3 +147,10 @@ git commit -m "블로그 글 작성" // 글 작성 후 커밋
 git push origin main // 원격 저장소에 푸쉬 -> 자동 빌드됨
 ```
 ![img_1.png](/blog/images/img_1.png)
+
+
+<br>
+
+### 7. 블로그 완성 !!
+
+https://heeyeoniii.github.io/blog/
