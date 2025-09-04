@@ -1,4 +1,4 @@
 baseURL = "https://heeyeoniii.github.io/blog/"
 languageCode = "ko-kr"
 title = "hxxyeoniii"
-theme = "PaperMod"
+theme = "hugo-PaperMod"
