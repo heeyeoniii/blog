@@ -135,6 +135,13 @@ theme = "hugo-PaperMod"
 <br>
 <h3>6. GitHub Pages에 배포를 진행한다.</h3>
 
+```
+git add . // 변경 내역 스테이징에 올리기
+git commit -m "블로그 글 작성" // 글 작성 후 커밋
+git push origin main // 원격 저장소에 푸쉬 -> 자동 빌드됨
+```
+<br>
+
 ![img_1.png](img_1.png)
 
 
