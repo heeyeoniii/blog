@@ -24,6 +24,7 @@ draft: false
 <br>
 <h3>2. 설치가 완료되면 프로젝트를 생성해준다.</h3>
 
+
 <code>hugo new site hxxyeoniii</code>
 
 프로젝트가 생성되었다면 다음과 같은 구조를 확인할 수 있다. <br>
