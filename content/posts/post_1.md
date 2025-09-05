@@ -11,9 +11,11 @@ draft: false
 
 
 SSG(Static Site Generator란?
->정적 사이트 생성기(=SSG)는 정적 웹 페이지를 쉽게 생성해주는 프레임워크 <br>
-대표적인 SSG로는 Hugo, Jekyll, Gatsby 등이 있다. <br>
-특히 Hugo는 Go언어로 만들어져 속도가 아주 빠르고, 마크다운 기반으로 컨텐츠를 작성할 수 있다.
+>정적 사이트 생성기(=SSG)는 정적 웹 페이지를 쉽게 생성해주는 프레임워크 
+> 
+> 대표적인 SSG로는 Hugo, Jekyll, Gatsby 등이 있다. 
+> 
+> 특히 Hugo는 Go언어로 만들어져 속도가 아주 빠르고, 마크다운 기반으로 컨텐츠를 작성할 수 있다.
 
 <br>
 
@@ -132,9 +134,9 @@ https://themes.gohugo.io
 해당 블로그의 이름, 테마, 배포 위치, 언어 등을 설정해주는 것이다.
 
 ```
-baseURL = "https://heeyeoniii.github.io/blog/" <br>
-languageCode = "ko-kr" <br>
-title = "hxxyeoniii" <br>
+baseURL = "https://heeyeoniii.github.io/blog/" 
+languageCode = "ko-kr" 
+title = "hxxyeoniii" 
 theme = "hugo-PaperMod"
 ```
 
